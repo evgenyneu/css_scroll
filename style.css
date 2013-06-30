@@ -1,0 +1,20 @@
+.parent {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  box-shadow: inset -5px 0 4px -4px brown, inset 5px 0 4px -4px brown;
+}
+
+.child { width: 1980px; }
+
+.box{
+  float: left;
+  width: 180px;
+  margin-right: 20px;
+  color: white;
+  background-color: brown;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box-last { margin-right: 0; }
